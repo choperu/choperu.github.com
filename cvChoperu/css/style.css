@@ -1,0 +1,46 @@
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    h1 {
+        color: whitesmoke;
+        margin-left: 5%;
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+    
+    body {
+        background-image: url(../img/fondo.jpg);
+    }
+    
+    .navegacion {
+        width: 70%;
+        max-width: 1000px;
+        margin: 5% auto;
+        background: rgb(231, 231, 231);
+        border-radius: 20px;
+    }
+    
+    .navegacion ul {
+        list-style: none;
+    }
+    
+    .menu>li {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .menu>li>a {
+        display: block;
+        padding: 15px 20px;
+        color: #353535;
+        font-family: Impact, sans-serif;
+        text-decoration: none;
+        display: flex;
+    }
+    
+    .menu li a:hover {
+        color: rgb(250, 0, 83);
+        transition: all .3s;
+    }
